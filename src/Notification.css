@@ -1,0 +1,64 @@
+.notification-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .notification-container h3 {
+    font-size: 1.8rem;
+    color: #4caf50;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .notification-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .notification-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .notification-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .notification-item .notification-time {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  /* Notification types */
+  .notification-item.booked {
+    background-color: #e6f7e6;
+    border-left: 5px solid #4caf50;
+  }
+  
+  .notification-item.canceled {
+    background-color: #fdecea;
+    border-left: 5px solid #f44336;
+  }
+  
+  .notification-item.updated {
+    background-color: #e8f4fd;
+    border-left: 5px solid #2196f3;
+  }
+  
+  .notification-item.rescheduled {
+    background-color: #fff8e1;
+    border-left: 5px solid #ffc107;
+  }

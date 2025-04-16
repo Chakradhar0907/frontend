@@ -1,0 +1,48 @@
+.review-time-slots-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .review-time-slots-container h3 {
+    font-size: 1.8rem;
+    color: #4caf50;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .time-slots-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .time-slots-table th,
+  .time-slots-table td {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .time-slots-table th {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .time-slots-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .time-slots-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .time-slots-table td {
+    font-size: 1rem;
+    color: #333;
+  }
